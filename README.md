@@ -14,7 +14,7 @@ The for loop performs statements a certain number of times.  Recall that a for l
 
 We can use for loops to iterate through a String, an array, have it count with a given pattern, etc.  
 
-## Examples:
+## :notebook: Examples:
 
 ```
 //print out the first 9 perfect squares.  
@@ -28,12 +28,12 @@ Expressions can also be used within the for loop
 ```
 //prints the first half of a String
 
-String school = "Omaha Central";
-for(int i = 0; i < school.length() / 2; i++) {
-    System.out.println(school[i]); 
+String school = "Omaha Central";  
+for(int i = 0; i < school.length() / 2; i++) {  
+    System.out.println(school[i]);  
 }
 
->>>O
+>>>O 
 >>>m
 >>>a
 >>>h
@@ -43,18 +43,18 @@ for(int i = 0; i < school.length() / 2; i++) {
 
 ```
 
-## Nested For Loops
+## :bird: Nested For Loops
 Nest loop: a loop placed inside another loop.  The following loop would print out a 5 x 10 grid of stars.  
 
 ```
-	for (int i = 1; i <= 5; i++) {
-	    for (int j = 1; j <= 10; j++) {
-	        System.out.print("*");
-	    }
-	    System.out.println();   // to end the line
+for (int i = 1; i <= 5; i++) {
+	for (int j = 1; j <= 10; j++) {
+	      System.out.print("*");
+	}
+	System.out.println();   // to end the line
 	}
     
-    Output: 
+ Output: 
  **********  
  **********  
  **********  
@@ -67,7 +67,7 @@ Nest loop: a loop placed inside another loop.  The following loop would print ou
 :pushpin: note that the outer loop determines the number of rows (5) and the inner loop determines the number of columns (10)d
 We also need to include that System.out.prinln() outside the inner loop so that we a new line can be created for each row.  
 
-## Adding Complexity to Nested For Loops
+## :heavy_plus_sign: Adding Complexity to Nested For Loops
 
 To print figures like this: 
 
@@ -113,7 +113,7 @@ Think algebraically.  What would be the function that represents this table of v
     }
 ```
 
-## Exercises:
+##  :bicyclist: Exercises:
 
 1.  How would you adjust the code above to print out the following? 
 ```
