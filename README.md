@@ -64,7 +64,7 @@ Nest loop: a loop placed inside another loop.  The following loop would print ou
  
  
  
-:pushin: note that the outer loop determines the number of rows (5) and the inner loop determines the number of columns (10)d
+:pushpin: note that the outer loop determines the number of rows (5) and the inner loop determines the number of columns (10)d
 We also need to include that System.out.prinln() outside the inner loop so that we a new line can be created for each row.  
 
 ## Adding Complexity to Nested For Loops
