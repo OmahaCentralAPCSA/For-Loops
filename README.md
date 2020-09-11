@@ -71,11 +71,13 @@ We also need to include that System.out.prinln() outside the inner loop so that 
 
 To print figures like this: 
 
+```
 ....1  
 ...2  
 ..3  
 .4  
 5  
+```
 
 We need to consider any patterns that we see. 
 - The number of dots on each line is related to the line number.
