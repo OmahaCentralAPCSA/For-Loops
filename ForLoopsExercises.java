@@ -4,37 +4,22 @@ public class ForLoopsExercises {
 
     public static void main(String [] args) {
 
-      Scanner scan = new Scanner(System.in); 
+      //declaring my Scanner
+      Scanner console = new Scanner(System.in); 
+      
+      //prompt the user for input
+      System.out.print("Please enter a width followed by a height separated by a space: ");
 
-      System.out.println("Enter the width and height of your rectangle separated by a space: ");
-
-      int width = scan.nextInt();
-      int height = scan.nextInt(); 
-
+      //capturing the entered value
+      int width = console.nextInt();
+      int height = console.nextInt(); 
 
     
-      //Call each method to test
-
-      /*
-        ....1    1 - > 4  5 -1
-        ...2     2 - > 3  5 -2 
-        ..3      3 - > 2  5 -3
-        .4       4 - > 1  5 - 4
-        5        5 - > 0
-
-
-      */
-
-     /* for(int line = 1; line <= 5; line++) {
-          for(int j = 1; j <= 5 - line; j++)
-
-            System.out.println("line is " + line + " j is: " + j);
-      }
-      */
-      
       //ExerciseOne();
       //ExerciseTwo();
-      //ExerciseThree();
+
+      //passing the entered values to be used in ExerciseThree()
+      ExerciseThree(width, height);
       //ExerciseFour();
     
     }
@@ -52,7 +37,6 @@ public class ForLoopsExercises {
             System.out.println();
         }
     }
-    
     //Exercise 2
     public static void ExerciseTwo() {
 
@@ -69,11 +53,8 @@ public class ForLoopsExercises {
     }
     
      //Exercise 3
-    public static void ExerciseThree() {
+    public static void ExerciseThree(int width, int height) {
         
-        int height = 5;
-        int width = 9;
-
         //top row
         for(int i = 1; i <= width; i++){
             System.out.print("*");
